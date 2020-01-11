@@ -1,0 +1,154 @@
+*{margin:0;padding:0}
+a{
+  text-decoration:none;
+  color:#000;
+}
+#login-content{
+  position:fixed;
+  top:0;
+  left:0;
+  background:rgba(0,0,0,.6);
+  width:100%;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  fiex-direction:column;
+}
+.login-box{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
+.login-box-warp{
+  width:400px;
+  height:400px;
+  background:#fff;
+  border-radius:6px;
+  position:relative;
+}
+
+/*内容*/
+.div_img{
+  float:right;
+  margin-top:5px;
+  margin-right:10px;
+}
+.div_img>img{
+  width:53px;
+  height:53px;
+}
+.login-list-1{
+  margin-top:29px;
+  margin-left:35px;
+  width:330px;
+  height:41px;
+  border-bottom:1px solid #eee;
+}
+.login-list-1>div{
+  display:inline-block;
+  font-size:18px;
+}
+.login-list-1-d1{
+  width:72px;
+  height:40px;
+  border-bottom:3px solid #000;
+  margin-right:20px;
+  color:#000;
+  font-weight:700;
+}
+.login-list-1-d2{
+  color:#888;
+}
+.input1{
+  margin-top:40px;
+  margin-left:35px;
+  width:315px;
+  height:42px;
+  padding-left:15px;
+  border-radius:5px;
+  border:1px solid #dcdfe6;
+  color:#606266;
+  font-size:12px;
+}
+.input2{
+  margin-top:20px;
+  margin-left:35px;
+  width:315px;
+  height:42px;
+  padding-left:15px;
+  border-radius:5px;
+  border:1px solid #dcdfe6;
+  font-size:12px;
+}
+.login-button{
+  width:330px;
+  height:42px;
+  margin-top:20px;
+  margin-left:35px;
+  border-radius:3px;
+  background:linear-gradient(80deg,#ff4a8c,#ff621f 99%);
+  border:0;
+  color:#fff;
+  font-size:16px;
+}
+.login-low{
+  float:right;
+  margin-top:20px;
+  margin-right:35px;
+  color:#777;
+  font-size:13px;
+}
+.login-low>a{
+  color:#777;
+}
+.san-login{
+  width:380px;
+  height:18px;
+  margin-top:60px;
+}
+.san-login-1,.san-login-3{
+  width:96px;
+  height:1px;
+  background:#dedede;
+}
+.san-login-1{
+  margin-left:40px;
+}
+.san-login-3{
+  margin-left:260px;
+  margin-top:-9px;
+}
+.san-login-2{
+  width:98px;
+  height:18px;
+  font-size:13px;
+  color:#777;
+  margin-left:150px;
+  margin-top:-10px;
+}
+.login-bottom-img{
+  width:330px;
+  height:28px;
+}
+.login-bottom-img>img{
+  width:35px;
+  height:28px;
+  margin-top:10px;
+}
+.login-bottom-img-1{
+  margin-left:100px;
+}
+.login-bottom-img-2{
+  margin-left:45px;
+}
+.login-bottom-img-3{
+  margin-left:45px;
+}
+.x-img-1{
+  width:36px;
+  height:36px;
+  margin-top:40px;
+  margin-left:185px;
+}

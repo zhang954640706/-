@@ -1,0 +1,554 @@
+*{margin:0;padding:0}
+/*头部内容*/
+	#hearder-content{
+		max-width:1549px;
+		min-width:1260px;
+		height:70px;
+		background:#fff;
+		box-shadow:0 4px 20px 10px rgba(0,0,0,.06);
+	}
+	a{
+	  text-decoration:none;
+	}
+	/*好豆图标*/
+	.haodou-icon{
+		width:90px;
+		height:40px;
+		margin:0 20px 10px 40px;
+		display:inline block;
+		line-height:40px;
+	}
+	/*菜谱*/
+	.tab-item-1{
+		height:70px;
+		vertical-align:bottom;
+		text-align:center;
+		padding:0 10px;
+		color:#fff;
+		background:#ff621f;
+		font:700 16px "MicrosoftYaHei-Bold";
+		display:inline-block;
+		line-height:70px;
+	}
+	/*精选，厨艺视频，小视频，大赛，商城，商业合作，移动端*/
+	.tab-item{
+		height:70px;
+		vertical-align:bottom;
+		text-align:center;
+		padding:0 10px;
+		color:#000;
+		background:#fff;
+		font:700 16px "MicrosoftYaHei-Bold";
+		display:inline-block;
+		line-height:70px;
+	}
+	/*搜索框*/
+	.search-input{
+	  border:1px solid #ff621f;
+	  width:218px;
+	  height:38px;
+	  border-top-left-radius:100px;
+	  border-bottom-left-radius:100px;
+	  outline:0;
+	  vertical-align:middle;
+	  float:left;
+	  text-indent:30px;
+	  font-size:16px;
+	}
+	#search{
+	  float:right;
+	  vertical-align:middle;
+	  margin:14px 0 14px 125px;
+	  position:absolute;
+	  top:0px;
+	  left:580px;
+	}
+	#search>.search-a{
+	  width:80px;
+	  height:38px;
+	  display:inline-block;
+	  background:#ff621f;
+	  text-align:center;
+	  line-height:38px;
+	  border:1px solid #ff621f;
+	  border-top-right-radius:100px;
+	  border-bottom-right-radius:100px;
+	}
+	.search-a>img{
+	  width:17px;
+	  height:17px;
+	  vertical-align:middle;
+	}
+	.search-a>span{
+	  font-size:16px;
+	  color:#fff;
+	}
+	/*图标*/
+	.tab-list{
+	  width:186px;
+	  height:0;
+	  list-style-type:none;
+	  position:relative;
+	}
+	.tab-li{
+	  width:26px;
+	  height:70px;
+	}
+	.tab-img{
+	  width:26px;
+	  height:25px;
+	}
+	.tab-li1{
+	  position:absolute;
+	  top:-50px;
+	  left:1030px;
+	}
+	.tab-li2{
+	  position:absolute;
+	  top:-50px;
+	  left:1070px;
+	}
+	.tab-li3{
+	  position:absolute;
+	  top:-50px;
+	  left:1110px;
+	}
+	.tab-list>div{
+	  width:48px;
+	  height:70px;
+	}
+	.tab-img-login{
+	  width:43px;
+	  height:43px;
+	}
+	.tab-div-img-login{
+	  position:absolute;
+	  top:-60px;
+      left:1160px;
+	  z-index:999;
+	}
+	.head-img-box:hover+.login-in{
+      display: block;
+	}
+	.tab-div-img-login:hover .login-in{
+      display:block;
+	}
+
+	/*登录框*/
+	.login-in{
+	  width:400px;
+	  height:284px;
+	  display:none;
+	  position:absolute;
+	  right:0px;
+	  top:60px;
+	  background:#fff;
+	  box-shadow:0 0 6px 5px rgba(0,0,0,.07);
+	  border-radius:6px;
+	  z-index:999;
+	}
+	.login-msg{
+	  width:100%;
+	  height:82px;
+	  padding-top:10px;
+	  background-image:url("../images/702ce23.png");
+	  background-size:100% 100%;
+	}
+	.login-msg>.title{
+	  font-size:14px;
+	  color:#111;
+	  margin-left:23px;
+	  font-weight:700;
+	}
+	.login-msg>.desc{
+	  font-size:14px;
+	  color:#111;
+	  margin-left:23px;
+	  margin-top:19px;
+	}
+	.function-show{
+	  display:flex;
+	  justify-content:space-around;
+	  flex-flow:row wrap;
+	  align-items:center;
+	  margin:30px 17px;
+	}
+	.function-show>li{
+	  margin-right:36px;
+	  float:left;
+	  list-style:none;
+	}
+	.function-show>li>img{
+	  width:54px;
+	  height:54px;
+	  border:0;
+	  vertical-align:middle;
+	}
+	.function-show>li>p{
+	  margin-top:5px;
+	  font-size:12px;
+	}
+	.click-login{
+	  width:100%;
+	}
+	.click-login>img{
+	  width:216px;
+	  height:32px;
+	  margin:0 auto;
+	  display:block;
+	  border:0;
+	  vertical-align:middle;
+	}
+	/*头部下方内容*/
+	.header-centent-bottom{
+	  width:95%;
+	  height:56px;
+	  margin:0 auto;
+	  border-top:1px solid #f0f0f0;
+	  line-height:56px;
+	}
+	.header-centent-bottom>a{
+	  font-size:14px;
+	  margin-right:40px;
+	  color:#000;
+	}
+	.header-centent-bottom-a1{
+	  color:#ff621f !important;
+	}
+	.header-centent-bottom-a2{
+	  margin-left:200px;
+	}
+	/*登录框*/
+	.login-in{
+      width:400px;
+	  height:284px;
+	  display:none;
+	  position:absolute;
+	  right:0px;
+	  top:60px;
+	  background:#fff;
+	  box-shadow:0 0 6px 5px rgba(0,0,0,.07);
+	  border-radius:6px;
+	  z-index:999;
+	}
+	.login-in:hover{
+	  display:block;
+	}
+	.login-msg{
+	  width:100%;
+	  height:82px;
+	  padding-top:10px;
+	  background-image:url("../images/702ce23.png");
+	  background-size:100% 100%;
+	}
+	.login-msg>.title{
+	  font-size:14px;
+	  color:#111;
+	  margin-left:23px;
+	  font-weight:700;
+	}
+	.login-msg>.desc{
+	  font-size:14px;
+	  color:#111;
+	  margin-left:23px;
+	  margin-top:19px;
+	}
+	.function-show{
+	  display:flex;
+	  justify-content:space-around;
+	  flex-flow:row wrap;
+	  align-items:center;
+	  margin:30px 17px;
+	}
+	.function-show>li{
+	  margin-right:36px;
+	  float:left;
+	  list-style:none;
+	}
+	.function-show>li>img{
+	  width:54px;
+	  height:54px;
+	  border:0;
+	  vertical-align:middle;
+	}
+	.function-show>li>p{
+	  margin-top:5px;
+	  font-size:12px;
+	}
+	.click-login{
+	  width:100%;
+	}
+	.click-login img{
+	  width:216px;
+	  height:32px;
+	  margin:0 auto;
+	  display:block;
+	  border:0;
+	  vertical-align:middle;
+	}
+/*内容部分*/
+	.main-centent-top{
+		margin-top:30px;
+	}
+	.main-centent-top-1{
+	  margin-left:100px;
+	  margin-right:50px;
+	  display:inline-block;
+	}
+	.main-centent-top-1>h3{
+	  color:#ff621f;
+	  font-size:14px;
+	  margin-bottom:10px;
+	}
+	.main-centent-top-1>ul>li{
+	  font-size:14px;
+	  list-style:none;
+	  margin-bottom:5px;
+	}
+	.main-centent-top-2{
+	  margin-right:50px;
+	  display:inline-block;
+	}
+	.main-centent-top-2>h3{
+	  color:#ff621f;
+	  font-size:14px;
+	  margin-bottom:10px;
+	}
+	.main-centent-top-2>ul>li{
+	  font-size:14px;
+	  list-style:none;
+	  margin-bottom:5px;
+	}
+	.main-centent-top-more-1{
+	  font-size:14px;
+	  width:42px;
+		height:18px;
+		padding:0px;
+	}
+
+	.main-centent-top-more-2{
+	  font-size:14px;
+	  width:42px;
+		height:18px;
+		padding:0px;
+	}
+
+	.main-centent-top-1-1{
+	  width:1130px;
+	  height:50px;
+	  padding:30px 24px;
+	  display:none;
+	  z-index:999;
+	  position:absolute;
+	  top:272px;
+	  left:50px;
+	  background:#fff;
+	  box-shadow:0 0 8px 3px rgba(0,0,0,.12);
+	}
+	.main-centent-top-1-1>ul>li{
+	  display:inline-block;
+	  font-size:14px;
+	  margin-right:38px;
+	  margin-bottom:5px;
+	}
+	/*菜谱推荐标题*/
+	.recomment-header{
+	  height:45px;
+	  margin:35px 75px 24px 75px;
+	}
+	.recomment-header-title{
+	  float:left;
+	  font-size:32px;
+	  color:#111;
+	  line-height:1;
+	}
+	.recomment-header-list{
+	  float:left;
+	  list-style:none;
+	}
+	.recomment-header-list>li{
+	  float:left;
+	  width:150px;
+	  height:37px;
+	  border-radius:100px;
+	  background:#f8f8f8;
+	  line-height:37px;
+	  text-align:center;
+	  margin-left:30px;
+	}
+	.recomment-header-list>li a{
+	  display:block;
+	  color:#111;
+	}
+	/*菜品推荐内容*/
+	.recomment-centent{
+	  margin:0px 80px;
+	  display:flex;
+	  flex-flow:row wrap;
+	  justify-content:space-around;
+	}
+	.recomment-centent a{
+	  display:block;
+	  margin-bottom:46px;
+	}
+	.recomment-centent img{
+	  width:192px;
+	  height:200px;
+	  border-radius:4px;
+	}
+	.p1{
+	  display:block;
+	  color:#222 !important;
+	  margin-top:11px;
+	  font-size:16px;
+	}
+	.recomment-centent p{
+	  color:#999;
+	  margin-top:2px;
+	}
+    /*内容底部换页*/
+	.recomment-centent-bottom{
+	  width:800px;
+	  height:32px;
+	  display:block;
+	  margin-bottom:100px;
+	}
+	.recomment-centent-bottom-left>button{
+	  float:left;
+	  display:block;
+	  border:0;
+	  background:#fff;
+	  font-size:16px;
+	  font-weight:700;
+	  
+	}
+	.u1>li{
+	  margin-left:30px;
+	}
+	.b1{
+	  margin-left:300px;
+	  color:#c0c4cc;
+	}
+	.b2{
+	  margin:0 30px;
+	}
+	.recomment-centent-bottom-left>ul{
+	  float:left;
+	  list-style:none;
+	  display:block;
+	  line-height:22px;
+	}
+	.recomment-centent-bottom-left>ul>li{
+	  float:left;
+	  display:block;
+	  color:#333;
+	  font-size:14px;
+	  font-weight:700;
+	}
+	.recomment-centent-bottom-left>ul>.l1{
+	  width:25px;
+	  height:25px;
+	  background:#ff8400;
+	  color:#fff;
+	  border-radius:50%;
+	  text-align:center;
+	  font-weight:700;
+	  font-size:14px;
+	  
+	}
+	.recomment-centent-bottom-right{
+	  font-size:14px;
+	  font-weight:700;
+	}
+	
+	
+	
+	
+/*底部内容*/
+	#footer-content{
+	  height:322px;
+	  padding:40px 0 70px;
+	  background-color:#333;
+	}
+	.footer-content-1{
+	  width:900px;
+	  height:205px;
+	  margin:0 auto;
+	}
+	.fc-row1,.fc-row2,.fc-row3,.fc-row4,.fc-row5{
+	  display:block;
+	  width:200px;
+	  float:left;
+	}
+	.fc-title{
+	  display:block;
+	  font-size: 16px;
+	  color: #999;
+	  padding-bottom:20px;
+	}
+
+	.fc-row1>a{
+	  display:block;
+	  width:80px;
+	  text-align:left;
+	  float:left;
+	  font-size:14px;
+	  color:#999;
+	  padding-bottom:13px;
+	}
+	.fc-row2>a{
+	  display:block;
+	  width:80px;
+	  text-align:left;
+	  font-size:14px;
+	  color:#999;
+	  padding-bottom:13px;
+	}
+	.fc-row3>img,.fc-row4>img{
+	  width:130px;
+	  height:130px;
+	}
+	.fc-row3>span,.fc-row4>span{
+	  color:#999;
+	  font-size:12px;
+	  display:block;
+	}
+	.fc-row5{
+	  width:100px;
+	  height:133px;
+	}
+	.fc-row5>a{
+	  display:block;
+	  width:80px;
+	  text-align:left;
+	  font-size:14px;
+	  color:#999;
+	  padding-bottom:13px;
+	}
+	.footer-content-2{
+	  width:900px;
+	  height:126px;
+	  margin:0 auto;
+	}
+	.footer-content-2>a{
+	  color:#999;
+	  font-size:12px;
+	  text-align:center;
+	  display:block;
+	  margin-top:10px;
+	}
+	.footer-content-3{
+	  width:200px;
+	  margin:0 auto;
+	  text-align:center;
+	}
+	.footer-content-3>img{
+	  display:block;
+	  float:left;
+	}
+	.footer-content-3>p{
+	  float:left;
+	  color:#939393;
+	  font-size:10px;
+	  padding-left:10px;
+	}
